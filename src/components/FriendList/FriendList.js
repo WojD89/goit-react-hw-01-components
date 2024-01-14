@@ -1,6 +1,6 @@
 const Friends = ({ friends }) => {
   return (
-    <ul class="friend-list">
+    <ul className="friend-list">
       {friends.map(friend => (
         <li key={friend.id} className="item">
           <span className="status">{friend.isOnline}</span>
