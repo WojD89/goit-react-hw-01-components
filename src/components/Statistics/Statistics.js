@@ -8,7 +8,7 @@ const getRandomHexColor = () => {
 const Statistics = ({ title, stats }) => {
   return (
     <section className={statisticsStyle.statistics}>
-      {title?.length > 0 && <h2 className={statisticsStyle.title}>{title}</h2>}
+      {title && <h2 className={statisticsStyle.title}>{title}</h2>}
       <ul className={statisticsStyle.statList}>
         {stats.map(item => (
           <li key={item.id} className={statisticsStyle.item}

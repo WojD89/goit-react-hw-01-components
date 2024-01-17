@@ -1,0 +1,40 @@
+
+.item {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 5px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 4px;
+    box-shadow: 0px 7px 16px -5px rgba(66, 68, 90, 1);
+  }
+
+  .status {
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  
+  .is_active {
+    background-color: rgb(0, 155, 0);
+  }
+  
+  .is_not_active {
+    background-color: rgb(228, 23, 23);
+  }
+
+  .avatar {
+    margin-right: 20px;
+    width: 38px;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: rgb(99, 100, 110);
+  }
